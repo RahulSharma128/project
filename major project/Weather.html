@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherForecast</title>    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="current-info">
+
+            <div class="date-container">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 15 JUNE
+                </div>
+
+                <div class="others" id="current-weather-items" > </div>
+            </div>
+
+            <div class="place-container">
+                <div class="time-zone" id="time-zone">Asia/DELHI</div>
+                <div id="country" class="country">IN</div>
+                <div class="today" id="current-temp">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="other">
+                        <div class="day">Monday</div>
+                        <div class="temp">Night - 25.6&#176; C</div>
+                        <div class="temp">Day - 35.6&#176; C</div>
+                    </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+   
+    <div class="chart" id="chartContainer" style="height: 370px; width: 100%; position:relative"></div>
+
+
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/chart.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
